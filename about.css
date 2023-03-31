@@ -1,0 +1,228 @@
+
+body{
+    margin:0;
+}
+#nav-area{
+    background-color:#6247ea;
+}
+#nav .home-anchor{
+    text-decoration: none;
+    color:white;
+    font-family: "Roboto", sans-serif;
+}
+#nav{
+    display:flex;
+    align-items:center;
+    gap:5px;
+}
+#title h2{
+    font-size:36px;
+    color:white;
+    font-family: "Roboto", sans-serif;
+    margin:0;
+}
+#nav-area-inner{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    padding:133px 0;
+}
+#welcome-text{
+    font-family: "Roboto", sans-serif;
+}
+#welcome-text p{
+    font-size:14px;
+    color:#777777;
+    opacity:0.8;
+    margin-bottom:40px;
+}
+#welcome-text h2{
+    font-size:36px;
+}
+.info-div{
+    font-family: "Roboto", sans-serif;
+    border:1px solid #b6b6b6;
+    padding:20px 30px;
+}
+.info-div p{
+    font-size:20px;
+    color:#646464;
+    opacity:0.8;
+}
+.info-div h3{
+    font-size:25px;
+}
+#info{
+    display:flex;
+    gap:20px;
+}
+.material-symbols-outlined{
+    color:purple;
+}
+#welcome-inner{
+    display:flex;
+    align-items:center;
+    gap:80px;
+}
+#welcome-inner img{
+    padding:0;
+    box-shadow: -4px -3px 45px 21px rgba(0,0,0,0.35);
+    border:0;
+}
+#main{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:70px 0;
+}
+#article p{
+    color:#777777;
+    font-weight: 300;
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+}
+#article{
+    width:1210px;
+}
+#main-wrapper{
+    display:flex;
+    flex-direction: column;
+}
+#consultation-title h2,#consultation-title p{
+    font-family: "Roboto", sans-serif;
+}
+#consultation-title h2{
+    font-weight: 500;
+    color:white;
+}
+#consultation-area{
+    background-color:#ec9d5f;
+}
+#consultation-title p{
+    opacity:0.6;
+}
+#consultation-title{
+    text-align: center;
+    padding-top:30px;
+}
+
+#consultation-btn{
+    padding:20px 40px;
+    font-family: "Roboto", sans-serif;
+    border:0;
+    margin:40px 0;
+    font-weight: 500;
+}
+#consultation-btn a{
+    text-decoration: none;
+    color:black
+}
+#consultation-btn:hover{
+    background-color: #6610f2;
+    color:white;
+    transition: all 0.3s ease-in-out;
+    cursor:pointer;
+}
+
+#consultation-area{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+}
+#footer{
+    background-color:#04091e;
+}
+
+#newsletter h2{
+    color:white;
+    font-family: "Roboto", sans-serif;
+}
+#newsletter p{
+    color:#777777;
+    font-family: "Roboto", sans-serif;
+    font-size:15px;
+}
+#email-inpt{
+    width:300px;
+    border-radius: 30px;
+    border:0;
+    box-sizing: border-box;
+    font-size: 16px;
+    padding-left:20px;
+}
+#submit-btn{
+    padding:15px 30px;
+    background-color:#6247ea;
+    border:1px solid #04091e;
+    color:white;
+    border-radius:30px;
+}
+#submit-btn:hover{
+    background-color: #04091e;
+    border:1px solid #6247ea; 
+    cursor:pointer;
+    transition: all 0.3s ease-in-out;
+}
+#top-products h3, #top-products p{
+    color:white;
+    font-family: "Roboto", sans-serif;
+}
+#top-products p{
+    font-size:14px;
+}
+#top-products h3{
+    margin-bottom:25px;
+}
+form div{
+    display:flex;
+    gap:10px;
+}
+#footer-wrapper{
+    margin:100px;
+    display:flex;
+    gap:150px;
+}
+#footer{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+}
+
+#first-image-row, #second-image-row{
+    display:flex;
+    gap:10px;
+}
+#insta-images-wrapper{
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+}
+#insta-feed-title h2{
+    color:white;
+    font-family: "Roboto", sans-serif;
+}
+#footer-bottom-paragraph{
+    color:#777777;
+    opacity:0.8;
+    padding:0;
+    margin:0;
+    font-family: "Roboto", sans-serif;
+}
+#social-media a{
+    color:white;
+    font-family: "Roboto", sans-serif;
+    text-decoration: none;
+    background-color:#1e2235;
+    border:0;
+    padding:10px;
+}
+#social-media{
+    display:flex;
+    gap:10px;
+}
+#footer-bottom{
+    display:flex;
+    gap:560px;
+    align-items: center;
+}
